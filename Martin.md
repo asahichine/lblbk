@@ -1,14 +1,18 @@
-# <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default3.jpg" align="left" height=21% width=21% >Martin
+# <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default3.jpg" align="left" height=21% width=21% >
 
-### Stay gold, pony boy.
+#  Martin
 
-一个小白的Mechine learning之旅
+###  Stay gold, pony boy.
+
+ 一个小白的Mechine learning之旅
 
 
 
 ### 学习经历
 
 > Python
+
+基础语法
 
 > 数据挖掘
 
@@ -32,7 +36,10 @@
 
 ### 未来规划
 
-|      |      |
-| ---- | ---- |
-|      |      |
+| 工作 |  个人  |
+| :--: | :----: |
+| RCNN | Golang |
+|      |        |
+|      |        |
+|      |        |
 
