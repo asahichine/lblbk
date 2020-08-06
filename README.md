@@ -1,27 +1,45 @@
-### Hi there 👋
+# <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default3.jpg" align="left" height=25% width=25% >
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+#  Martin
 
-<!--
-**lblbk/lblbk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+###  Stay gold, pony boy.
 
-Here are some ideas to get you started:
+ 一个小白的Mechine learning之旅
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
+
+### 学习经历
+
+> Python
+
+基础语法
+
+> 数据挖掘
+
+> 机器学习
+
+> 深度学习
+
+> DNN、CNN、
+
+> Tensorlfow、Pytorch
+
+> AlexNet、VGG、GoogLeNet、MobileNet、ResNet
+
+> 目标检测、语义分割、实例分割
+
+> Yolo、SSD、MaskRCNN
+
+### 工作经历
+
+### 项目经历
+
+### 未来规划
+
+| 工作 |  个人  |
+| :--: | :----: |
+| RCNN | Golang |
+|      |        |
+|      |        |
+|      |        |
 
