@@ -2,17 +2,15 @@
 
 #  Martin
 
-###  Stay gold, pony boy.
+##### 简介
 
- 一个小白的Mechine learning之旅
+- 一枚新社畜 :dog: 
+- 手机电脑数码爱好者 :iphone:
+- 独自旅行 🚆
+- 梦想成为炼丹师 🎈
 
+###### 经历
 
-
-### 学习经历
-
-> Python
-> 机器学习
-> 深度学习
-> Tensorlfow、Pytorch
-> AlexNet、VGG、GoogLeNet、MobileNet、ResNet
-> 目标检测、语义分割、实例分割
+- python
+- pytorch, tensorflow
+- ResNet, MobileNet
