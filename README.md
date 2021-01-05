@@ -2,6 +2,8 @@
 
 #  Martin
 
+> Stay gold, pony boy.
+
 ##### 简介
 
 - 一枚新社畜 :dog: 
