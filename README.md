@@ -1,6 +1,6 @@
-# <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" align="left" style="zoom:10%" >
+# <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" align="left" width="15%" height="15%" >
 
-#        Martin
+#    Martin
 
 Stay gold, pony boy.
 
