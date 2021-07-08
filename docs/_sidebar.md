@@ -1,53 +1,38 @@
-- [🌛Martin's碎碎念](/martin/martin.md)
-
 - 🪐深度学习
-  - 传统方法
-    - [svm](#)
-    - [lr](#)
-    
+
   - 基础知识
-    - [卷积](/dl/operator/convolution.md)
-    - [BatchNormalization](/dl/operator/batchnormalization.md)
-    - [激活函数](/dl/operator/activation.md)
-    - [SEBlock](/dl/operator/se_block.md)
+    - [卷积](/dl/layer/convolution.md)
+    - [BatchNormalization](/dl/layer/batchnormalization.md)
+    - [激活函数](/dl/layer/activation.md)
+    - [SEBlock](/dl/layer/se_block.md)
 
   - 基础网络
     - [ResNet](#)
-  
+
   - 目标检测
     - [faster-rcnn](#)
     - [常用指标](/dl/od/evaluation.md)
-  
-- 🌈CV
-  - [cv](/cv/iqa/iqa.md) 
-
-- 🛠Tools
-  - ⚙️工具
-    - [Git](/tools/general/git.md)
-    - [latex](/tools/general/latex.md)
-    - [Markdown](/tools/general/markdown.md)
-    - [杂七杂八](/tools/general/knowledge.md)
 
   - Pytorch源码阅读
     - [待更新](#)
 
   - Pytorch
-    - [autograd](/tools/pytorch/autograd.md)
-    - [conv2d参数](/tools/pytorch/convolution.md)
-    - [pytorch 常用函数](/tools/pytorch/pytorch_function.md)
-    - [pytorch权重初始化](/tools/pytorch/torch_init.md)
+    - [autograd](/dl/pytorch/autograd.md)
+    - [conv2d参数](/dl/pytorch/convolution.md)
+    - [pytorch 常用函数](/dl/pytorch/pytorch_function.md)
+    - [pytorch权重初始化](/dl/pytorch/torch_init.md)
     - [pytorch tensor](#)
-    - [pytorch modules](/tools/pytorch/pytorch_modules.md)
-    - [pytorch学习率调整](/tools/pytorch/lr_scheduler.md)
-    - [pytorch优化器](/tools/pytorch/optimizer.md)
-    - [pytorch tensorboard](/tools/pytorch/pytorch_tensorboard.md)
-    - [训练流程](/tools/pytorch/train.md)
-    - [训练提速技巧](/tools/pytorch/train_trick.md)
-    - [并行训练](/tools/pytorch/parallelism.md)
-    - [保存模型](/tools/pytorch/save.md)
+    - [pytorch modules](/dl/pytorch/pytorch_modules.md)
+    - [pytorch学习率调整](/dl/pytorch/lr_scheduler.md)
+    - [pytorch优化器](/dl/pytorch/optimizer.md)
+    - [pytorch tensorboard](/dl/pytorch/pytorch_tensorboard.md)
+    - [训练流程](/dl/pytorch/train.md)
+    - [训练提速技巧](/dl/pytorch/train_trick.md)
+    - [并行训练](/dl/pytorch/parallelism.md)
+    - [保存模型](/dl/pytorch/save.md)
 
   - Tensorflow
-    - [tensorflow](/tools/tensorflow/tensorflow.md)
+    - [tensorflow](/dl/tensorflow/tensorflow.md)
 
 - 💻Coding
   - python
@@ -70,4 +55,3 @@
 
   - golang
     - [golang](1)
-
