@@ -1,11 +1,5 @@
 - 🪐深度学习
 
-  - 基础知识
-    - [卷积](/dl/layer/convolution.md)
-    - [BatchNormalization](/dl/layer/batchnormalization.md)
-    - [激活函数](/dl/layer/activation.md)
-    - [SEBlock](/dl/layer/se_block.md)
-
   - 基础网络
     - [ResNet](#)
 
