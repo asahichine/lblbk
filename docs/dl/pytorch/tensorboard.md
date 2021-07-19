@@ -53,6 +53,9 @@ tensorboard --logdir=runs/name
 
 # 同时运行多个tensorboard时，可以修改端口
 tensorboard --logdir=runs/name --port=6007
+
+# 访问远程服务器tensorboard 简单一点的方法
+tensorboard --logdir=runs/name --bind_all
 ```
 
 ![image-20210107175232368](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210107175232.png)
