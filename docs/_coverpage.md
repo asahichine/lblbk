@@ -9,6 +9,9 @@
 >
 > Baby you’re the best”
 
-
 [weibo](https://weibo.com/lblbk)
+
 [zhihu](https://www.zhihu.com/people/laibeilaingbaikai)
+
+[blog](https://lblbk.github.io/blog)
+
