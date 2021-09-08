@@ -1,5 +1,3 @@
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
-
 # **Martin**
 
 *Stay gold, pony boy.*
@@ -18,20 +16,18 @@
 | --------- | ---------------------------------------- | ----------------------------------------- |
 | [主页](/) | **[Blog](https://lblbk.github.io/blog)** | **[Docs](https://lblbk.github.io/lblbk)** |
 
+**简介**
+
+- 一枚程序猿 :monkey_face: 
+- 手机电脑数码爱好者 :iphone:
+- 独自旅行 🚆
+- 梦想成为攻城狮 🍋
+- balabala... :book:
+
 **🪐深度学习**
 
-  - 基础网络
-    - [ResNet](#)
-
-  - 目标检测
-    - [faster-rcnn](#)
-    - [常用指标](/dl/od/evaluation.md)
-
-  - Pytorch源码阅读
-    - [待更新](#)
-
-  - Pytorch
-    - [autograd](/dl/pytorch/autograd.md)
+- Pytorch
+    - [autograd](/dl/pytorch/autograd.md)s
     - [conv2d参数](/dl/pytorch/convolution.md)
     - [pytorch 常用函数](/dl/pytorch/pytorch_function.md)
     - [pytorch权重初始化](/dl/pytorch/torch_init.md)
@@ -44,12 +40,13 @@
     - [训练提速技巧](/dl/pytorch/train_trick.md)
     - [并行训练](/dl/pytorch/parallelism.md)
     - [保存模型](/dl/pytorch/save.md)
+    - [常用指标](/dl/od/evaluation.md)
 
-  - Tensorflow
-    - [tensorflow](/dl/tensorflow/tensorflow.md)
+- Tensorflow
+	- [tensorflow](/dl/tensorflow/tensorflow.md)
 
-- 💻Coding
-  - python
+**💻Coding**
+- python
     - [数据类型](/coding/python/data_structures.md)
     - [常见函数](/coding/python/function.md)
     - [Python Class](/coding/python/class.md)
@@ -58,17 +55,16 @@
     - [闭包](/coding/python/closure.md)
     - [装饰器](/coding/python/decorator.md)
 
-  - c++
+- c++
     - [编译器](/coding/cpp/compiler.md)
     - [基础](/coding/cpp/base.md)
     - [cmake](/coding/cpp/cmake.md)
 
-  - [Leetcode](/coding/leetcode/guide.md)
+- leetcode
+    - [Leetcode](/coding/leetcode/guide.md)
     - [剑指Offer](/coding/leetcode/jz_offer.md)
     - [leetcode](/coding/leetcode/leetcode.md)
 
-  - golang
-    - [golang](1)
 
 ***
 
@@ -77,4 +73,6 @@
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
 *🎉本文档主要记录实现方式*
+
+
 
