@@ -9,7 +9,7 @@
 **🪐深度学习**
 
 - Pytorch
-    - [autograd](/dl/pytorch/autograd.md)s
+    - [autograd](/dl/pytorch/autograd.md)
     - [conv2d参数](/dl/pytorch/convolution.md)
     - [pytorch 常用函数](/dl/pytorch/pytorch_function.md)
     - [pytorch权重初始化](/dl/pytorch/torch_init.md)
@@ -47,6 +47,7 @@
     - [剑指Offer](/coding/leetcode/jz_offer.md)
     - [leetcode](/coding/leetcode/leetcode.md)
 
+
 ***
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
@@ -54,3 +55,6 @@
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
 *🎉本文档主要记录实现方式*
+
+
+
