@@ -41,7 +41,8 @@
     - [编译器](/coding/cpp/compiler.md)
     - [基础](/coding/cpp/base.md)
     - [cmake](/coding/cpp/cmake.md)
-
+    - [c++ primer 01](/coding/cpp/cppprimer_01)
+    
 - leetcode
     - [Leetcode](/coding/leetcode/guide.md)
     - [剑指Offer](/coding/leetcode/jz_offer.md)
