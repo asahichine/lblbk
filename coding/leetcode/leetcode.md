@@ -1,12 +1,125 @@
-目录
+### 索引
+
+数组
+
+查找
+
+排序
+
+动态规划
 
 [preSum（前缀和）](#presum)
 
 [连通域](#connected_component)
 
+### 数据结构
+
+#### 数组
+
+[26. 删除有序数组中的重复项 - 力扣（LeetCode） (leetcode-cn.com)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+
+循环读取，遇到不同的就替换下来
+
+```c++
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        if(nums.empty()){
+            return 0;
+        }
+        int index = nums.size();
+        int sum=1;
+        int t=1;
+        for(int i=0;i<index-1;i++){
+            if(nums[i+1]==nums[i]){
+                continue;
+            }
+            else{
+                nums[t] = nums[i+1];
+                t++;
+                sum++;
+            }
+        }
+        return sum;
+    }
+};
+```
 
 
-##### <span id="presum">preSum（前缀和）</span>
+
+### 算法
+
+#### 查找
+
+#### 排序
+
+#### 动态规划
+
+##### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+
+**描述**
+
+斐波那契数，通常用 F(n) 表示，形成的序列称为 斐波那契数列 。该数列由 0 和 1 开始，后面的每一项数字都是前面两项数字的和。也就是：
+
+```
+F(0) = 0，F(1) = 1
+F(n) = F(n - 1) + F(n - 2)，其中 n > 1
+```
+
+给你 n ，请计算 F(n) 。
+
+**思路**
+
+```c++
+class Solution {
+public:
+    int fib(int n) {
+        if (n<2) return n;
+        int prev = 0, curr = 1;
+        for (int i=0; i<n-1; i++){
+            int sum = prev + curr;
+            prev = curr;
+            curr = sum;
+        }
+        return curr;
+    }
+};
+```
+
+具体很多思路源于此篇文章 [动态规划详解 (qq.com)](https://mp.weixin.qq.com/s/1V3aHVonWBEXlNUvK3S28w)
+
+###### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+
+**描述**
+
+给你一个整数数组 coins ，表示不同面额的硬币；以及一个整数 amount ，表示总金额。
+
+计算并返回可以凑成总金额所需的 最少的硬币个数 。如果没有任何一种硬币组合能组成总金额，返回 -1 。
+
+你可以认为每种硬币的数量是无限的。
+
+**思路**
+
+```c++
+class Solution {
+public:
+    int coinChange(vector<int>& coins, int amount) {
+        vector<int> dp(amount+1, amount+1);
+        dp[0] = 0;
+        for (int i=0; i<dp.size(); i++){
+            for (int coin: coins){
+                if (i-coin<0) continue;
+                dp[i] = min(dp[i], 1+dp[i-coin]);
+            }
+        }
+        return dp[amount] == amount+1 ? -1 : dp[amount];
+    }
+};
+```
+
+
+
+#### <span id="presum">preSum（前缀和）</span>
 
 303.区域和检索-数组不可变
 
@@ -63,7 +176,7 @@ class Solution:
 
 给定一个二维矩阵，计算其子矩形范围内元素的总和，该子矩阵的左上角为 `(row1, col1)` ，右下角为 `(row2, col2)` 。
 
-![Range Sum Query 2D](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303173815.png)
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303173815.png" alt="Range Sum Query 2D" style="zoom:33%;" />
 
 上图子矩阵左上角 (row1, col1) = **(2, 1)** ，右下角(row2, col2) = **(4, 3)，**该子矩形内元素的总和为 8。
 
@@ -79,7 +192,7 @@ class Solution:
 
 $S(O, D) = S(O, C) + S(O, B) - S(O, A) + D$
 
-![304.001.jpeg](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303175753.jpeg)
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303175753.jpeg" alt="304.001.jpeg" style="zoom: 25%;" />
 
 减去 S(O, A) 的原因是 S(O, C) 和 S(O, B)中都有 S(O, A), 即加了两次 S(O, A)，所以需要减去一次 S(O, A)。
 
@@ -94,7 +207,7 @@ $preSum[i][j] = preSum[i - 1][j] + preSum[i][j - 1] - preSum[i - 1][j - 1] + mat
 
 $S(A, D) = S(O, D) - S(O, E) - S(O, F) + S(O, G)$
 
-![304.002.jpeg](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303175803.jpeg)
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210303175803.jpeg" alt="304.002.jpeg" style="zoom:25%;" />
 
 加上子矩形 S(O, G) 面积的原因是 S(O, E) 和 S(O, F) 中都有 S(O, G)，即减了两次 S(O, G)，所以需要加上一次 S(O, G)。
 
