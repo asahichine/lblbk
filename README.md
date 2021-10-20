@@ -20,7 +20,7 @@
     - [pytorch tensorboard](/dl/pytorch/pytorch_tensorboard.md)
     - [训练流程](/dl/pytorch/train.md)
     - [并行训练](/dl/pytorch/parallelism.md)
-    - [模型问题](/dl/pytorch/train_model)
+    - [模型问题](/dl/pytorch/train_model.md)
     - [保存模型](/dl/pytorch/save.md)
     - [训练提速技巧](/dl/pytorch/train_trick.md)
     - [常用指标](/dl/od/evaluation.md)
@@ -42,7 +42,6 @@
     - [编译器](/coding/cpp/compiler.md)
     - [基础](/coding/cpp/base.md)
     - [cmake](/coding/cpp/cmake.md)
-    - [c++ primer 01](/coding/cpp/cppprimer_01)
     
 - leetcode
     - [Leetcode](/coding/leetcode/guide.md)
