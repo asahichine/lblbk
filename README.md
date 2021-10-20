@@ -19,11 +19,12 @@
     - [pytorch优化器](/dl/pytorch/optimizer.md)
     - [pytorch tensorboard](/dl/pytorch/pytorch_tensorboard.md)
     - [训练流程](/dl/pytorch/train.md)
-    - [训练提速技巧](/dl/pytorch/train_trick.md)
     - [并行训练](/dl/pytorch/parallelism.md)
+    - [模型问题](/dl/pytorch/train_model)
     - [保存模型](/dl/pytorch/save.md)
+    - [训练提速技巧](/dl/pytorch/train_trick.md)
     - [常用指标](/dl/od/evaluation.md)
-
+    
 - Tensorflow
 	- [tensorflow](/dl/tensorflow/tensorflow.md)
 
